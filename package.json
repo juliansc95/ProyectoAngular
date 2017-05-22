@@ -22,7 +22,8 @@
   "dependencies": {
     "bower": "^1.7.9",
     "cssmin": "^0.4.3",
-    "requirejs": "^2.2.0"
+    "requirejs": "^2.2.0",
+    "local-web-server": "^1.2.2"
       },
   "folders": {
     "build": "target/",

@@ -47,8 +47,6 @@ define([ 'angular',
 
         app.config(['$routeProvider', function($routeProvider) {
             $routeProvider.when( '/', { templateUrl: '/tmdb/partials/home/home.html', controller: 'HomeController' } );
-            $routeProvider.when( '/movie/:id', { templateUrl: '/tmdb/partials/movie/movie.html', controller: 'MovieController' } );
-            $routeProvider.when( '/person/:id', { templateUrl: '/tmdb/partials/person/person.html', controller: 'PersonController' } );
             $routeProvider.otherwise( {
                 template: function() {
                     throw 'An internal error occurred because the given path does not resolve to a known route.';

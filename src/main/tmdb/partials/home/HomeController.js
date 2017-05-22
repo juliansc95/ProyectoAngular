@@ -23,9 +23,7 @@ define( [ 'angular',
 
         var HomeController = function($scope ) {
 
-            $scope.view   = {
-                movies: ['boku'],
-            };
+            $scope.helado   = "Hola Mundo"
 
             
         };
